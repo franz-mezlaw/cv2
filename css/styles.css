@@ -1,0 +1,205 @@
+body {
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3,
+a {
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 60px;
+}
+
+.middle-container {
+    margin: 100px 0px;
+    /*100px oben und unten, links und rechts null*/
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px 0px 20px;
+    /*oben 30px, 0px rechts & links, 20px unten*/
+}
+
+.cloud-right {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 15%;
+}
+
+.cloud-left {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    width: 13%;
+}
+
+.wissenschaftler {
+    position: absolute;
+    right: 74px;
+    top: 133px;
+    width: 7%;
+}
+
+.entwickler {
+    position: absolute;
+    left: 210px;
+    top: 371px;
+    width: 8%;
+}
+
+.mountain {
+    position: relative;
+    top: 22px;
+}
+
+a {
+    color: #11999E;
+    margin: 10px 5px;
+    text-decoration: none;
+    /*unterstriche weg*/
+    /*Oben & unten 10px, rechts & links 20px*/
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px 0px;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    margin: 100px auto 100px auto;
+    /*Oben & Unten 100px Abstand, rechts und links zentriert*/
+    border-width: 10px;
+    /*Breite Punkte (Rand)*/
+    border-color: #EAF6F6;
+    border-style: dotted none none;
+    width: 4%;
+    /*Gesamtbreite von der <hr> Box*/
+}
+
+.franzBild {
+    width: 200px;
+}
+
+.skills {
+    display: inline-block;
+}
+
+.skill-row {
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    /*oben 100px, rechts auto, unten 100px, links auto. Auto bedeutet zentrieren*/
+}
+
+.frontend,
+.backend,
+.html,
+.css,
+.js,
+.react {
+    margin-right: 30px;
+    width: 30%;
+    /*anstatt unter dem Text, links am Text*/
+    /*Klasse skill sind die Skill-Bilder. Wurden verkleinert*/
+}
+
+.frontend,
+.html,
+.js {
+    float: left;
+    /*bilder links vom Text*/
+}
+
+.backend,
+.css,
+.react {
+    float: right;
+    /*bilder rechts vom Bild*/
+}
+
+.beschreibungProfil {
+    width: 35%;
+    margin: auto;
+    /*zentrieren*/
+}
+
+.mySkills,
+.textContactMe {
+    margin-top: 0;
+}
+
+.contact-me {
+    display: inline-block;
+    height: 250px;
+}
+
+.contact-message {
+    margin: 40px auto 60px auto;
+    width: 40%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
